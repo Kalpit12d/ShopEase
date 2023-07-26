@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 
 const connectDatabase = () => {
-    mongoose.connect(process.env.DB_URI, {
+    mongoose.connect("mongodb+srv://kalpit:kalpit@shopit.2hz8knw.mongodb.net/", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true
