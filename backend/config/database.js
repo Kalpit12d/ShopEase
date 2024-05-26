@@ -12,3 +12,5 @@ const connectDatabase = () => {
 }
 
 module.exports = connectDatabase
+
+//mongodb+srv://kalpit:kalpit@shopit.2hz8knw.mongodb.net/
